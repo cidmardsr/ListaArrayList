@@ -22,9 +22,10 @@ public class Exercicio04 {
         }
         
         for(int i = 0; i < numeros.size(); i++){
-        JOptionPane.showMessageDialog(null, numeros.get(i));
+        System.out.println(numeros.get(i));
         
         }
+        numeros.remove(3);
         
     }
 
